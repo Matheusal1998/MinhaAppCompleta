@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DevIO.Data.Context;
+using DevIO.Data.Repository;
+using DevIO.Business.Interfaces;
 
 namespace DevIO.App
 {
@@ -40,6 +42,12 @@ namespace DevIO.App
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<MeuDbContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+
 
 
             services.AddControllersWithViews();
