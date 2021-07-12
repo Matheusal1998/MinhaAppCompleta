@@ -4,14 +4,14 @@
     "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
-        "projectName": "DevIO.Data",
-        "projectPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectName": "DevIO.Business",
+        "projectPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "D:\\Users\\maraujo\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,80 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectName": "DevIO.Data",
+        "projectPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "packagesPath": "D:\\Users\\maraujo\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\maraujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
