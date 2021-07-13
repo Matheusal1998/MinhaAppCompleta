@@ -49,6 +49,7 @@ namespace DevIO.App
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
 
 
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddControllersWithViews();
             services.AddRazorPages();

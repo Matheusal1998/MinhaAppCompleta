@@ -66,9 +66,6 @@ C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.A
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csprojAssemblyReference.cache
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfoInputs.cache
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfo.cs
-C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csproj.CoreCompileInputs.cache
-C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cs
-C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cache
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cache
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cs
 C:\ProjetosEstudos\Dev.IO\Dominando_ASP_NET_CORE\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.TagHelpers.input.cache
