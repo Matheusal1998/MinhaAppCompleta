@@ -50,7 +50,7 @@ namespace DevIO.App
 
 
             services.AddAutoMapper(typeof(Startup));
-
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

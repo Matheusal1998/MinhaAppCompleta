@@ -39,7 +39,7 @@ namespace DevIO.App.ViewModels
         public string Estado { get; set; }
 
         [HiddenInput]
-        public Guid FornecedorId { get; set; }
+        public Guid? FornecedorId { get; set; }
 
 
     }
