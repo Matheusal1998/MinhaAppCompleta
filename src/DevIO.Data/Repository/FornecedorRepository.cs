@@ -1,9 +1,9 @@
-﻿using AppMvcBasica.Models;
-using DevIO.Business.Interfaces;
+﻿using DevIO.Business.Interfaces;
 using DevIO.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading.Tasks;
+using DevIO.Business.Models;
 
 namespace DevIO.Data.Repository
 {
