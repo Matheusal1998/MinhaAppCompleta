@@ -22,7 +22,6 @@ namespace DevIO.Data.Repository
             return await Db.Fornecedores.AsTracking()
                 .Include(c => c.Produtos)
                 .Include(c => c.Endereco)
-                .Include(c => c.Id)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
         }
