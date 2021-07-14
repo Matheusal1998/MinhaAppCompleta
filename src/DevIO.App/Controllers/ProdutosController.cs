@@ -40,7 +40,7 @@ namespace DevIO.App.Controllers
         public async Task<IActionResult> Details(Guid id)
         {
 
-            var produtoViewModel = ObterProduto((id));
+            var produtoViewModel = await ObterProduto(id);
 
             return View(produtoViewModel);
         }
