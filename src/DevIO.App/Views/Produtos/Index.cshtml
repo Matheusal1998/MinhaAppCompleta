@@ -13,7 +13,7 @@
     <thead class="thead-dark">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Imagem)
+         
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Nome)
@@ -44,7 +44,7 @@
             @Html.DisplayFor(modelItem => item.Fornecedor.Nome)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Valor)
+            @item.Valor.ToString("C")
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Ativo)
