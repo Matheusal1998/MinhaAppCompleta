@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7X/Nhc/jwJ+BQnaLtpQ6MynEyxgcNHO0WUytzyolgu3K0a3DAYNwH3ZVcGcrPYRr3XJnIqNwxqwtmmUymse1Og==",
+  "dgSpecHash": "j/xZpI1Dqz9yrtAXvLQqw9wKG68Rh4NdbEUtPUv+/y/1Re3GhsJWwYyWWUv57/e93eIbSvCdjZhCVpznScoCOw==",
   "success": true,
   "projectFilePath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "D:\\Users\\maraujo\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

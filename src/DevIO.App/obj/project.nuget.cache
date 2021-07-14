@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qfNHUSWc5ZIAkU+ptl4mWpQZkKSsag/fx2B2H+KpMlelksXfVVofo8+WEwaVczvs0aAD4pslk30vwz6OjPwJdg==",
+  "dgSpecHash": "WXh1jG45AufvQ+ZmawvJYXRfI9oohk7JmOlpdA87Utec71eneryUuyK36uOaxj6SJfFcJ5wq2vTpXy1oRZ/SQA==",
   "success": true,
   "projectFilePath": "C:\\ProjetosEstudos\\Dev.IO\\Dominando_ASP_NET_CORE\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\maraujo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "D:\\Users\\maraujo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "D:\\Users\\maraujo\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
     "D:\\Users\\maraujo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.7\\microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "D:\\Users\\maraujo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.7\\microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",
     "D:\\Users\\maraujo\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.7\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.7.nupkg.sha512",
